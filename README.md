@@ -1,6 +1,6 @@
-# NodeVueStarterCore
+# Budget Tracker
 
-This is a simple starter project connecting basic node.js backend with vue.js frontend and a simple api call. This can be built up into something actually useful, this is just to get you started quickly with these two technologies already hooked up.
+This is a project to make my budget tracking easier. Yes I know myriad software exists for this, but I want to make my own for the practice/experience and so I can set it up exactly as I want. This is also an excuse to learn vue.js and bone up on my node.js after just using asp.net at work for so long.
 
 To get started:
 

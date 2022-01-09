@@ -1,12 +1,15 @@
 <template>
   <div>
-    <h1>Fresh Template</h1>
+    <hr>
+    <h1>Month Selector</h1>
+    <div>This will ultimately allow you to only select one specific month.</div>
+    <input type="date" />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'NewTemplate',
+  name: 'MonthSelector',
   data () {
     return {
     }

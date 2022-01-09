@@ -1,0 +1,26 @@
+const mysql = require('mysql')
+
+const pool = mysql.createPool({
+    connectionLimit : 10,
+    host : 'localhost',
+    user : 'root',
+    password : '',
+    database : 'budget-tracker'
+})
+
+var getPoolConnection = cb => {
+    pool.getConnection((err, connection) => {
+        if(err) {
+            console.log(err)
+            throw err
+        }
+        cb(null, connection)
+    })
+}
+
+console.log('connector: ' + pool.database)
+
+module.exports = getPoolConnection;
+dd
+
+//TO DO: auto generate tables if not present

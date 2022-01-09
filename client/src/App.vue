@@ -5,7 +5,9 @@
 </template>
 
 <script>
+import NewCategory from './components/NewCategory.vue'
 export default {
+  components: { NewCategory },
   name: 'App'
 }
 </script>

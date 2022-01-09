@@ -20,6 +20,7 @@
     "cors": "^2.8.5",
     "exprss": "0.0.1-security",
     "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.15"
   }
 }
