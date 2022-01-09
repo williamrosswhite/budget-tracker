@@ -21,6 +21,5 @@ var getPoolConnection = cb => {
 console.log('connector: ' + pool.database)
 
 module.exports = getPoolConnection;
-dd
 
 //TO DO: auto generate tables if not present
